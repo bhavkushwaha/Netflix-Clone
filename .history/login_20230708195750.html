@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Netflix Sign in Page</title>
+    <link rel="stylesheet" href="login-style.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <a href="index.html"><button Class="return">RETURN</button></a>
+    </div>
+
+    <div class="container">
+        <h1>Sign In</h1>
+        <div class="form">
+            <form onsubmit="myFunction()">
+            <input type="email" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Sign In">
+            </form>
+            <input type="checkbox">
+            <label>Remember me</label>
+            <a href="#">Need help?</a>
+        </div>
+        <div class="content">
+            <h2>New to Netflix? <a href="signup.html">Sign up now.</a> </h2> <br>
+            <h2>This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</h2>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+          alert("Welcome! You have successfully logged in.");
+        }
+        </script>
+</body>
+</html>
